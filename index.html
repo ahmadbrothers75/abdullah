@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+            display: none;
+        }
+
+        h3
+        {
+            margin: 10px;
+            text-align: left;
+            font-size: 25px;
+        }
+
+        h1
+        {
+            text-align: center;
+            font-size: 45px;
+            font-style: initial;
+        }
+
+        p
+        {
+            text-align: center;
+            font-style: oblique;
+        }
+
+        a
+        {
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .head, .projects, .about, .foot
+        {
+            margin: 3px;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            padding: 20px;
+            width: auto;
+            text-align: center;
+        }
+
+        /*   head    */
+        .img1
+        {
+            height: 90px;
+            width: 90px;
+            position: absolute;
+            top: 10px;
+            left: 280px;
+
+        }
+
+        .img2
+        {
+            margin-top: 30px;
+            height: 250px;
+            width: 250px;
+            border-radius: 125px;
+            box-shadow: 0px 5px 5px rgb(17, 153, 17);
+        }
+
+        /*   projects   */
+        .projects
+        {
+            padding: 3px;
+            width: auto;
+            border-bottom: 0;
+        }
+        .projects h3
+        {
+            padding-left: 10px;
+        }
+
+        .projects video
+        {
+            height: 300px;
+            width: 170px;
+            display: inline-block;
+            margin: 3px;
+        }
+
+        /*    side button   */
+        .button a
+        {
+            color: black;
+            font-size: 35px;
+            padding: 10px 15px;
+            border-radius: 20px;
+            position: fixed;
+            background-color: skyblue;
+            bottom: 8px;
+            right: 8px;
+            border: 1px solid black;
+
+        }
+        .button a:hover
+        {
+            box-shadow: 3px 3px 3px green;
+            border: 2px solid black;
+        }
+
+        /*   foot   */
+        .foot
+        {
+            margin: 0;
+            border: 0;
+            background-color: rgb(87, 21, 21);
+            color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .foot a
+        {
+            font-size: 20px;
+            margin: 10px;
+            line-height: 30px;
+            color: white;
+        }
+        .foot a:hover
+        {
+            color: black;
+            background-color: skyblue;
+            padding: 3px 8px;
+            border-radius: 5px;
+        }
+        .foot p
+        {
+            font-size: 15px;
+        }
+
+        @media (min-width:360px) and (max-width:410px)
+        {
+            #box
+            {
+                display: block;
+            }
+        }
+
+    </style>
+</head>
+<body id="box">
+    <div class="head">
+        <h3>Profile:</h3>
+        <img class="img1" src="a1ca4050-5ef4-480e-9266-a1de099b7f23.png" alt="">
+        <img class="img2" src="1719915870485.jpg" alt="">
+        <h1>𝕄. 𝔸𝕓𝕕𝕦𝕝𝕝𝕒𝕙</h1>
+        <p>Videographer: &nbsp <strong>Abdullah</strong> Studio</p>
+    </div>
+    
+    <div class="about">
+        <h3>About:</h3>
+        <p>Hi ! &nbsp its Muhammad <strong>Abdullah</strong> Mirza from Pakistan. I am 22 years old. I have done I.Cs from Islamia Collage. Video editing is my passion and I realy enjoy my work. I have done many projects with companies and indivisuals also .....</p>
+    </div>
+    
+    <div class="projects">
+        <h3>Projects</h3>
+        <br>
+        <video loop controls>
+            <source src="download (1).mp4">
+        </video>
+        <video loop controls>
+            <source src="ssstik.io_@rustamfathi009_1728056142255.mp4">
+        </video>
+        <video loop controls>
+            <source src="ssstik.io_@rustamfathi009_1728056508304.mp4">
+        </video>
+        <video loop controls>
+            <source src="video1.mp4">
+        </video>
+    </div>
+    <div class="button">
+        <a class="bi bi-whatsapp" href="https://wa.me/message/+923448864281"></a>
+    </div>
+
+    <div class="foot">
+        <h3>Contact:</h3>
+        <div>
+            <a class="bi bi-tiktok" href=""> Tiktok</a>
+            <a class="bi bi-linkedin" href="https://www.linkedin.com/in/abdullah-mirza-8177a7293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Linkedin</a>
+            <a class="bi bi-facebook" href=""> Facebook</a>
+            <a class="bi bi-instagram" href=""> Instagram</a>
+            <a class="bi bi-twitter-x" href=""> Twitter</a>
+            <a class="bi bi-telephone" href="callto:+92 344 8864281"> Call</a>
+            <a class="bi bi-envelope" href=""> Email</a>
+        </div>
+        <br><br>
+        <div>
+            <p>Copyright <strong class="bi bi-c-circle"> Abdullah</strong> Studio. &nbsp All rights reserved 2024.</p>
+            <p class="bi bi-code"> Developer: <a href="https://www.linkedin.com/in/rehanahmad55_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><strong class="">Ahmad</strong> Brothers</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>
